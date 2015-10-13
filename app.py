@@ -1,20 +1,12 @@
 __author__ = 'rodrigo'
 
-from chatterbot import ChatBot
+import aiml
 
-chatbot = ChatBot("Ron Obvious")
+# Create the kernel and learn AIML files
+kernel = aiml.Kernel()
+kernel.learn("core/base/std-startup.xml")
+kernel.respond("load aiml b")
 
-conversation = [
-  "Hello",
-  "Hi there!",
-  "How are you doing?",
-  "I'm doing great.",
-  "That is good to hear",
-  "Thank you.",
-  "Your welcome."
-]
-
-chatbot.train(conversation)
-
-response = chatbot.get_response("Thank you.")
-print(response)
+# Press CTRL-C to break this loop
+while True:
+  print kernel.respond(raw_input("Enter your message >> "))

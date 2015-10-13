@@ -1,0 +1,72 @@
+
+<!-- basic_chat.aiml -->
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+
+    <category>
+        <pattern>OLÁ</pattern>
+        <template>Oi!</template>
+    </category>
+
+    <category>
+        <pattern>EU ME CHAMO *</pattern>
+        <template><random>
+            <li>Certo, vou te chamar de <get name="name"/></li>
+            <li> Oi</li>
+            <li> Como vai você</li>
+            <li> E aí.</li>
+            <li> Olá </li>
+        </random> <set name="name"><star/></set>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CHAME *</pattern>
+        <template>
+            <random>
+                <li>Certo, vou te chamar de </li>
+                <li> Oi</li>
+                <li> Como vai você</li>
+                <li> E aí.</li>
+                <li> Olá </li>
+            </random> <set name="name"><star/></set>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CHAME DE *</pattern>
+        <template>
+            <random>
+                <li>OK Eu irei chamar você de </li>
+                <li> Oi</li><li> Como vai você</li>
+                <li> E aí.</li>
+                <li> Olá </li>
+            </random> <set name="name"><star/></set>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CHAMO *</pattern>
+        <template>
+            <random>
+                <li>Certo, vou te chamar de </li>
+                <li> Oi</li>
+                <li> Como vai você</li>
+                <li> E aí.</li>
+                <li> Olá </li>
+            </random> <set name="name"><star/></set>.
+        </template>
+    </category>
+</aiml>
