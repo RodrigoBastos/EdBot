@@ -9,6 +9,13 @@
     </category>
 
     <category>
+        <pattern>OI</pattern>
+        <template>
+            Oi, ola!
+        </template>
+    </category>
+
+    <category>
         <pattern>WHAT ARE YOU</pattern>
         <template>
             I'm a bot, silly!
@@ -16,57 +23,8 @@
     </category>
 
     <category>
-        <pattern>OLÁ</pattern>
+        <pattern>OLA</pattern>
         <template>Oi!</template>
     </category>
 
-    <category>
-        <pattern>EU ME CHAMO *</pattern>
-        <template><random>
-            <li>Certo, vou te chamar de <get name="name"/></li>
-            <li> Oi</li>
-            <li> Como vai você</li>
-            <li> E aí.</li>
-            <li> Olá </li>
-        </random> <set name="name"><star/></set>.
-        </template>
-    </category>
-
-    <category>
-        <pattern>ME CHAME *</pattern>
-        <template>
-            <random>
-                <li>Certo, vou te chamar de </li>
-                <li> Oi</li>
-                <li> Como vai você</li>
-                <li> E aí.</li>
-                <li> Olá </li>
-            </random> <set name="name"><star/></set>.
-        </template>
-    </category>
-
-    <category>
-        <pattern>ME CHAME DE *</pattern>
-        <template>
-            <random>
-                <li>OK Eu irei chamar você de </li>
-                <li> Oi</li><li> Como vai você</li>
-                <li> E aí.</li>
-                <li> Olá </li>
-            </random> <set name="name"><star/></set>.
-        </template>
-    </category>
-
-    <category>
-        <pattern>ME CHAMO *</pattern>
-        <template>
-            <random>
-                <li>Certo, vou te chamar de </li>
-                <li> Oi</li>
-                <li> Como vai você</li>
-                <li> E aí.</li>
-                <li> Olá </li>
-            </random> <set name="name"><star/></set>.
-        </template>
-    </category>
 </aiml>
