@@ -2,14 +2,70 @@
     <category>
         <pattern>OLÁ</pattern>
         <template>
-            Oi, olá!
+            <random>
+                <li>Oi, olá!</li>
+                <li>E aí</li>
+                <li>Opa!</li>
+                <li>Olá</li>
+            </random>
         </template>
     </category>
 
     <category>
         <pattern>OI</pattern>
         <template>
-            Oi, tudo bem?
+            <random>
+                <li>Oi, tudo bem?</li>
+                <li>Oi</li>
+            </random>
         </template>
     </category>
+
+    <category>
+        <pattern>TUDO BEM</pattern>
+        <template>
+            <random>
+                <li>Tranquilo, e você?</li>
+                <li>Tudo.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É VOCÊ</pattern>
+        <template>
+            <random>
+                <li>Eu sou um Bot</li>
+                <li>Me chamo Ed</li>
+                <li>Eu sou um Bot. Pode me chamar de Ed</li>
+                <li>Me chamo Ed</li>
+                <li>Eu sou o Ed</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É * BOT</pattern>
+        <template>
+            Bot é um Robô que utiliza Inteligência Artificial para realizar atividades humanas
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL A SUA PROFISSÃO</pattern>
+        <template>
+            Eu sou um assistente educacional
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU NOME</pattern>
+        <template>
+            <random>
+                <li>Meu nome é Ed</li>
+                <li>Ed</li>
+            </random>
+        </template>
+    </category>
+
 </aiml>
