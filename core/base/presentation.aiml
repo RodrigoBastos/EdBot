@@ -7,6 +7,7 @@
                 <li>E aí</li>
                 <li>Opa!</li>
                 <li>Olá</li>
+                <li>olá, tudo bem?</li>
             </random>
         </template>
     </category>
@@ -17,6 +18,7 @@
             <random>
                 <li>Oi, tudo bem?</li>
                 <li>Oi</li>
+                <li>olá</li>
             </random>
         </template>
     </category>
@@ -27,6 +29,7 @@
             <random>
                 <li>Tranquilo, e você?</li>
                 <li>Tudo.</li>
+                <li>tudo bem e você?</li>
             </random>
         </template>
     </category>
@@ -40,6 +43,7 @@
                 <li>Eu sou um Bot. Pode me chamar de Ed</li>
                 <li>Me chamo Ed</li>
                 <li>Eu sou o Ed</li>
+                <li>Eu sou o Ed e sou um Bot</li>
             </random>
         </template>
     </category>
