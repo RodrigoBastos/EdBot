@@ -72,4 +72,15 @@
         </template>
     </category>
 
+
+    <category>
+        <pattern>O MEU NOME É * SEU NOME</pattern>
+        <template>
+            <random>
+                <li>Meu nome é Ed</li>
+                <li>Ed</li>
+            </random>
+        </template>
+    </category>
+
 </aiml>
