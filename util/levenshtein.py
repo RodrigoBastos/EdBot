@@ -1,17 +1,21 @@
 # coding=utf-8
 from nltk.metrics.distance import edit_distance
+import codecs
 
-questions = [
-    'OLÁ',
-    'OI',
-    'TUDO BEM',
-    'QUEM É VOCÊ',
-    'O QUE É * BOT',
-    'SEU NOME',
-    'QUAL A SUA PROFISSÃO'
-]
+# Reading aiml file
+aiml = codecs.open("./core/base/cybora.aiml", "r", encoding="utf-8")
+
+print aiml
+
+questions = []
+
+for line in aiml.readlines():
+    print line.encode("utf-8")
+
+
 
 phrase = 'meu nome é rodrigo e o seu?'
+
 
 distance_less = len(phrase)
 
